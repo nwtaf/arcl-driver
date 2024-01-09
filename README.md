@@ -10,15 +10,15 @@ The ARCL client provides a simple and effective way to control and monitor Omron
 
 To install the ARCL client, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/username/repository.git`
-2. Navigate to the project directory: `cd repository`
-3. Install the required packages: `pip install -r requirements.txt`
-
-Replace 'username' and 'repository' with your actual GitHub username and repository name.
+1. Clone the repository: `git clone https://github.com/nwtaf/arcl-driver.git`
+2. Navigate to the project directory: `cd arcl-driver`
+3. Install the required packages: `pip install -r requirements.txt` (still working on minimizing requirements.txt)
 
 ## Usage
 
-Provide instructions on how to use your ARCL client here.
+Within the src folder, there are a few files:
+* arcl-telnet-client.py: automatically starts a telnet client where the user can enter commands
+* arcl-tcp-client.py: not recommended, depreciated
 
 ## Contributing
 
@@ -26,4 +26,4 @@ Contributions are welcome! Please read the contributing guidelines before gettin
 
 ## License
 
-This project is licensed under the terms of the MIT license.
+This project should licensed under the terms of the MIT license. I am not liable, but feel free to use the code!
